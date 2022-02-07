@@ -1,0 +1,144 @@
+body {
+  background-color: #000000;
+}
+
+.logo {
+  height: 55px;
+  width: 170px;
+  left: 121px;
+  top: 1px;
+  border-radius: 0px;
+}
+
+font {
+  width: 584px;
+  height: 100px;
+  left: 70px;
+  top: 830px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.04em;
+  color: #c7d6ff;
+}
+
+.Mynav {
+  position: absolute;
+  width: 1440px;
+  height: 121px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background: rgba(255, 255, 255, 0.01);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.mybtnfont {
+  width: 66px;
+  height: 22px;
+  left: 881px;
+  top: 44px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  /* Font-color */
+  color: #FFE8FF;
+}
+
+.mybtndiv {
+  width: 463px;
+  height: 44px;
+  left: 881px;
+  top: 33px;
+  display: flex;
+}
+
+.mybtn1 {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* position: absolute; */
+  width: 127px;
+  height: 44px;
+  left: 1217px;
+  top: 33px;
+  border: 2px solid #fc69ff;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.mybtn1:hover {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* position: absolute; */
+  width: 127px;
+  height: 44px;
+  left: 1217px;
+  top: 33px;
+  border: 2px solid #fc69ff;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  color: white;
+  background-color: #fc69ff;
+  font-weight: bolder;
+}
+
+.mybtn1:active {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* position: absolute; */
+  width: 127px;
+  height: 44px;
+  left: 1217px;
+  top: 33px;
+  border: 2px solid #fc69ff;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  color: #fc69ff;
+  background-color: #000000;
+  font-weight: bolder;
+}
+
+.navlinks {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.navlinks:hover {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #fc69ff;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+/*# sourceMappingURL=global-style.css.map */
