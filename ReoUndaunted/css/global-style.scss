@@ -1,0 +1,9 @@
+@use "../css/custom" as *;
+
+h1 {
+  @include linkfont1;
+}
+
+p {
+  @include navlinks;
+}

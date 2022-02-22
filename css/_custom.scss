@@ -4,9 +4,7 @@ $maincolor: #fc69ff;
 $maincolo2: #c7d6ff;
 $fontcolor: #ffe8ff;
 $fontcolo2: #ffffff;
-
-
-
+$bgImg: image("Media/Images/Services.png");
 
 @mixin font {
   width: 584px;
@@ -165,60 +163,64 @@ $fontcolo2: #ffffff;
   padding-bottom: 0.5rem;
   background: rgba(255, 255, 255, 0.01);
   -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
 }
 
-@mixin mybtnfont {width: 66px;
+@mixin mybtnfont {
+  width: 66px;
   height: 22px;
   left: 881px;
   top: 44px;
-  
+
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
   /* identical to box height */
-  
-  
+
   /* Font-color */
-  
-  color: #FFE8FF;
-  
+
+  color: #ffe8ff;
 }
 
 @mixin mybtndiv {
   width: 463px;
-height: 44px;
-left: 881px;
-top: 33px;
-display: flex;
-  
+  height: 44px;
+  left: 881px;
+  top: 33px;
+  display: flex;
 }
 
 @mixin navbtn {
   width: 49px;
-height: 22px;
-left: 969px;
-top: 44px;
+  height: 22px;
+  left: 969px;
+  top: 44px;
 
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 22px;
-/* identical to box height */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
 
+  /* Font-color */
 
-/* Font-color */
-
-color: #FFE8FF;
+  color: #ffe8ff;
 }
 
 @mixin navlinks {
-    display: block;
-    padding: 0.5rem 1rem;
-    color: $fontcolo2;
-    text-decoration: none;
-    transition: .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: $fontcolo2;
+  text-decoration: none;
+  transition: 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+@mixin picture {
+  background-image: $bgImg;
+  border-radius: 2%;
+  margin-bottom: 7px;
 }

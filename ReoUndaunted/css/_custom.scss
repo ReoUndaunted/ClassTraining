@@ -1,0 +1,219 @@
+$mybgcolor: #000000;
+$myprycolor: #a586ff;
+$maincolor: #fc69ff;
+$maincolo2: #c7d6ff;
+$fontcolor: #ffe8ff;
+$fontcolo2: #ffffff;
+
+@mixin font {
+  width: 584px;
+  height: 100px;
+  left: 70px;
+  top: 830px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.04em;
+
+  color: #c7d6ff;
+}
+
+@mixin linkfont2 {
+  width: 206.16px;
+  height: 32.47px;
+  left: calc(50% - 206.16px / 2 - 463.9px);
+  top: calc(50% - 32.47px / 2 - 93.6px);
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+
+  color: #fc69ff;
+}
+
+@mixin linkfont1 {
+  width: 68px;
+  height: 22px;
+  left: 1036px;
+  top: 44px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Font-color */
+
+  color: #ffe8ff;
+}
+
+@mixin fonthero {
+  width: 601px;
+  height: 177px;
+  left: 138px;
+  top: 511px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.015em;
+
+  /* bg-color */
+
+  color: #aea9ba;
+
+  text-shadow: 0px 4px 40px #000000;
+}
+
+@mixin mybtn1 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* position: absolute; */
+  width: 127px;
+  height: 44px;
+  left: 1217px;
+  top: 33px;
+  border: 2px solid #fc69ff;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+@mixin mybtn2 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  position: absolute;
+  width: 193px;
+  height: 58px;
+  left: 218px;
+  top: 760px;
+
+  /* Main color */
+
+  background: #fc69ff;
+  border-radius: 25px;
+}
+
+@mixin header1 {
+  /* Services */
+  position: absolute;
+  width: 887px;
+  height: 282px;
+  left: calc(50% - 887px / 2 - 165.5px);
+  top: calc(50% - 282px / 2 - 309px);
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 250px;
+  line-height: 340px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.105em;
+
+  color: #ffffff;
+
+  text-shadow: 0px 0px 35px #9a21a4;
+}
+
+@mixin logo {
+  height: 55px;
+  width: 170px;
+  left: 121px;
+  top: 1px;
+  border-radius: 0px;
+}
+
+@mixin Mynav {
+  position: absolute;
+  width: 1440px;
+  height: 121px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background: rgba(255, 255, 255, 0.01);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+@mixin mybtnfont {
+  width: 66px;
+  height: 22px;
+  left: 881px;
+  top: 44px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Font-color */
+
+  color: #ffe8ff;
+}
+
+@mixin mybtndiv {
+  width: 463px;
+  height: 44px;
+  left: 881px;
+  top: 33px;
+  display: flex;
+}
+
+@mixin navbtn {
+  width: 49px;
+  height: 22px;
+  left: 969px;
+  top: 44px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Font-color */
+
+  color: #ffe8ff;
+}
+
+@mixin navlinks {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: $fontcolo2;
+  text-decoration: none;
+  transition: 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}

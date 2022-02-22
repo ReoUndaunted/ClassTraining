@@ -9,48 +9,48 @@ body {
 }
 
 font {
-  @include font
-
+  @include font;
 }
 
 .Mynav {
-  @include Mynav
+  @include Mynav;
 }
 
 .mybtnfont {
-  @include mybtnfont
+  @include mybtnfont;
 }
 
-.mybtndiv{
-  @include mybtndiv
+.mybtndiv {
+  @include mybtndiv;
 }
 
 .mybtn1 {
-  @include mybtn1
+  @include mybtn1;
 }
 
-.mybtn1:hover{
+.mybtn1:hover {
   @include mybtn1;
   color: white;
   background-color: $maincolor;
   font-weight: bolder;
 }
-.mybtn1:active{
+.mybtn1:active {
   @include mybtn1;
-  color:$maincolor;
+  color: $maincolor;
   background-color: $mybgcolor;
   font-weight: bolder;
 }
 
 .navlinks {
-  @include navlinks
+  @include navlinks;
 }
 
 .navlinks:hover {
   display: block;
-    padding: 0.5rem 1rem;
-    color: $maincolor;
-    font-weight: bolder;
-    text-decoration: none;
-    transition: .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  padding: 0.5rem 1rem;
+  color: $maincolor;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
